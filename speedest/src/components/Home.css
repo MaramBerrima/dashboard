@@ -1,0 +1,21 @@
+.button-one {
+    position: center;
+    z-index: 1;
+  }
+  
+  .button-two {
+    position: center;
+    z-index: 3;
+  }
+  .wrapper{
+    position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center
+  }
+  .overlay{
+  position: fixed;
+  top: -135%;
+  left: -60%;
+  }
